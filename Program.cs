@@ -11,7 +11,8 @@ namespace Tabuada
 
             for (var i = 0; i <= 10; i++)
             {
-                Console.WriteLine(tabuada+ " x " +i+ " = "+tabuada*i);
+                // Console.WriteLine(tabuada+ " x " +i+ " = "+tabuada*i);
+                Console.WriteLine($"{tabuada} x {i} = {tabuada*i}");
             }
         }
     }
